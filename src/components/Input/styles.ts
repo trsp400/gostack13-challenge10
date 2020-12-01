@@ -10,6 +10,7 @@ export const Container = styled.div<IContainerProps>`
   align-items: center;
 
   background: #fff;
+  border: 1px solid #b7b7cc;
   border-radius: 8px;
   padding: 18px 24px;
   width: 100%;

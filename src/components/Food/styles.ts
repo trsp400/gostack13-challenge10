@@ -7,11 +7,15 @@ interface IFoodPlateProps {
 export const Container = styled.div<IFoodPlateProps>`
   background: #f0f0f5;
   border-radius: 8px;
+  max-width: 352px;
 
   header {
     background: #ffb84d;
     border-radius: 8px 8px 0px 0px;
     height: 192px;
+    width: 352px;
+    max-width: 352px;
+    object-fit: cover;
     overflow: hidden;
     transition: 0.3s opacity;
     text-align: center;
@@ -24,6 +28,7 @@ export const Container = styled.div<IFoodPlateProps>`
 
     img {
       pointer-events: none;
+      object-fit: cover;
       user-select: none;
     }
   }
